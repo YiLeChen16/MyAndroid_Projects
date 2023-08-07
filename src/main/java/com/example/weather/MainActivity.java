@@ -15,7 +15,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.qweather.sdk.bean.base.Lang;
-import com.qweather.sdk.bean.base.Unit;
 import com.qweather.sdk.bean.geo.GeoBean;
 import com.qweather.sdk.bean.weather.WeatherDailyBean;
 import com.qweather.sdk.bean.weather.WeatherNowBean;
@@ -157,7 +156,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                     weather = new Weather(cityName, weatherText,
                                             tempMin + "/" + tempMax, nowTemper, wind, uvIndex, pressure);
                                 } else {
-                                    weather = new Weather();
                                     weather = null;
                                 }
                                 //利用Handler机制将weather对象发送给主线程

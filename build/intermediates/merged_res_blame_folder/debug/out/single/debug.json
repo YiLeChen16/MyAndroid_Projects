@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__id404.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_id404.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__id502.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_id502.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__id102.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_id102.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable_baseline_search_24.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\baseline_search_24.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__id313.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_id313.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__id300.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_id300.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__id507.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_id507.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__id104.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_id104.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__id302.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_id302.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__sun_fill.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_sun_fill.xml"
+    },
+    {
+        "merged": "com.example.weather-merged_res-5:/drawable_baseline_search_24.xml.flat",
+        "source": "com.example.weather-main-7:/drawable/baseline_search_24.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable_bac.png.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\bac.png"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__id999.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_id999.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__id100.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_id100.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__id301.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_id301.xml"
+    },
+    {
+        "merged": "com.example.weather-merged_res-5:/layout_activity_main.xml.flat",
+        "source": "com.example.weather-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__id101.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_id101.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\mipmap-anydpi-v33\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__id501.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_id501.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\layout_activity_main.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\drawable__id499.xml.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\drawable\\_id499.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\daemon\\7.5\\com.example.weather-merged_res-5:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\Gradle\\daemon\\7.5\\com.example.weather-main-7:\\mipmap-mdpi\\ic_launcher.webp"
+    }
+]
