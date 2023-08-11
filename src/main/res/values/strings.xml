@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Chat Robot</string>
+    <string-array name="welcome_text">
+        <item>你好啊，很高兴认识你！</item>
+        <item>你好！</item>
+        <item>你好啊，我是小爱！</item>
+        <item>Hi! 你叫什么名字呀？</item>
+        <item>今天幸苦了，好好休息一下吧~~</item>
+        <item>上班辛苦了，您可以对我说“讲笑话”哦，小爱可以为您讲笑话哟</item>
+        <item>上班累了吗？小爱可以给你讲过故事提提神哦</item>
+        <item>好久不见啊，你终于来了！小爱等你好久了呢</item>
+    </string-array>
+</resources>
