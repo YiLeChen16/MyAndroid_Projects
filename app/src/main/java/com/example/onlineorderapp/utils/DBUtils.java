@@ -24,7 +24,7 @@ public class DBUtils {
     //用户名
     private static final String user = "root";
     //密码
-    private static final String password = "mypassword";
+    private static final String password = "xxxxxx";
     //数据库URL地址
     private static final String url = "jdbc:mysql://192.168.208.239:3306/" + DB_name;
 
