@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.OnlineOrderAPP" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--对话框样式    -->
+    <style name="Theme.ActivityDialogStyle" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!--设置对话框背景为透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--设置对话框背景有半透明遮罩-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--设置窗体内容背景透明-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--设置对话框浮于Activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--设置点击对话框外面部分关闭对话框-->
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+</resources>

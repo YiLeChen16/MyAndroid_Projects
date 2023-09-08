@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--购物车列表弹出的动画效果-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="500">
+    <translate
+        android:fromYDelta="100.0%"
+        android:toYDelta="10.000002%"/>
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"/>
+</set>

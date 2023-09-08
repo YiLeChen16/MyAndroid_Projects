@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--标题栏返回键-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/baseline_arrow_back_ios_new_24">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/gray"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="false" android:drawable="@drawable/baseline_arrow_back_ios_new_24">
+       <shape android:shape="rectangle">
+           <solid android:color="@color/pink"/>
+       </shape>
+    </item>
+</selector>

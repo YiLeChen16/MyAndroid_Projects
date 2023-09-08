@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--购物车列表条目布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="1dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/tv_food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="巧克力蛋糕"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical" />
+        <ImageView
+            android:id="@+id/iv_reduce"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/btn_reduce_bac"
+            android:layout_toStartOf="@id/tv_food_count"
+            android:scaleType="centerInside"/>
+        <TextView
+            android:id="@+id/tv_food_count"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:layout_toStartOf="@id/iv_add"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:id="@+id/iv_add"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/btn_add_bac"
+            android:scaleType="centerInside"/>
+        <TextView
+            android:id="@+id/tv_food_price"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="￥188"
+            android:layout_toStartOf="@id/iv_reduce"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>
