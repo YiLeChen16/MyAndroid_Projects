@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:id="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/iv_goods_img"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="羽绒棉背心女士马夹外穿韩版加厚中长款宽松秋冬网红棉马甲外套潮"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_below="@id/iv_goods_img"/>
+        <TextView
+            android:id="@+id/tv_tag_cheap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="领券省15元"
+            android:background="@drawable/shape_tag"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/layout_head"
+        android:padding="10dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_get_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="领券购买"
+            android:background="@drawable/shape_tag"
+            android:textColor="@color/white"
+            android:padding="6dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="原价:"
+            android:textColor="@color/orange"
+            android:layout_toEndOf="@id/tv_get_ticket"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:layout_alignBaseline="@id/tv_get_ticket"/>
+        <TextView
+            android:id="@+id/tv_normal_price"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/orange"
+            android:layout_toEndOf="@id/tv_price"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="999.99"
+            android:layout_alignBaseline="@id/tv_price"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

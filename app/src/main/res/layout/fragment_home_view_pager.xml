@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:yl="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_pager_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- SmartRefreshLayout下拉刷新框架: 最多只能支持三个子View -->
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.scwang.smart.refresh.header.ClassicsHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!-- NestedScrollView用于解决轮播图控件与RecylerView一起滑动的问题   -->
+        <!--NestedScrollView只能有一个子View-->
+        <com.example.taobaounion.ui.custom.TbNestedScrollView
+            android:id="@+id/tb_nested_scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/home_pager_header"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/ry_looper"
+                        android:layout_width="0dp"
+                        android:layout_height="125dp"
+                        app:layout_constraintBottom_toTopOf="@id/include"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <com.example.taobaounion.ui.custom.AutoLoopViewPager
+                            android:id="@+id/looper_view_pager"
+                            android:layout_width="match_parent"
+                            android:layout_height="125dp"
+                            yl:duration="4000"/>
+                        <LinearLayout
+                            android:id="@+id/ly_looper_point_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="9dp"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:orientation="horizontal" />
+                    </RelativeLayout>
+
+
+                    <include
+                        android:id="@+id/include"
+                        layout="@layout/include_home_view_pager_title"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ry_looper" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <!--此处需在java代码中动态设置recyclerView的高度，否则直接match_parent会导致控件高度超出屏幕，一次性加载过多条目，浪费内存-->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/home_pager_content_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/view_pager_bac"
+                    android:overScrollMode="never"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/home_pager_header" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.example.taobaounion.ui.custom.TbNestedScrollView>
+
+        <com.scwang.smart.refresh.footer.ClassicsFooter
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

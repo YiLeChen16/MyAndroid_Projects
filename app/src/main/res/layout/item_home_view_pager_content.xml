@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp">
+
+    <ImageView
+        android:id="@+id/iv_goods_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+        <TextView
+            android:id="@+id/tv_goods_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="羽绒棉背心女士马夹外穿韩版加厚中长款宽松秋冬网红棉马甲外套潮"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/tv_tag_cheap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="省15元"
+            android:background="@drawable/shape_tag"
+            android:textColor="@color/white"
+            android:padding="3dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="券后价："
+                android:textColor="@color/orange"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tv_discount_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="29.99"
+                android:textColor="@color/orange"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/tv_normal_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="￥44.99"
+                android:textColor="@color/gray"
+                android:layout_marginStart="10dp"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/tv_sell_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1000人已购买"
+                android:textColor="@color/gray"
+                android:layout_marginStart="10dp"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    
+
+</LinearLayout>
